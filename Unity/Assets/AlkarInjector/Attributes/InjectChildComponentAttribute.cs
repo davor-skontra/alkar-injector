@@ -2,7 +2,7 @@
 
 namespace AlkarInjector.Attributes
 {
-    public class FromChildComponentAttribute : Attribute
+    public class InjectChildComponentAttribute : Attribute
     {
 
     }
