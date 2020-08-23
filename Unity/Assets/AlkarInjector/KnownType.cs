@@ -9,18 +9,22 @@ namespace AlkarInjector
 {
     public class KnownType
     {
-    
-        private readonly List<FieldInfo> _ownComponentFields  = new List<FieldInfo>();
-        private readonly List<FieldInfo> _parentComponentFields  = new List<FieldInfo>();
+        private readonly List<FieldInfo> _ownComponentFields = new List<FieldInfo>();
+        private readonly List<FieldInfo> _parentComponentFields = new List<FieldInfo>();
         private readonly List<FieldInfo> _childComponentFields = new List<FieldInfo>();
 
         public KnownType(Type type)
         {
-            var fields = type.GetFields();
+            var fields = type.GetFields(
+                BindingFlags.Public | BindingFlags.NonPublic
+                                    | BindingFlags.Static | BindingFlags.Instance
+            );
 
             foreach (var field in fields)
             {
-                var attributes = field.GetCustomAttributes().ToArray();
+                var attributes = field
+                    .GetCustomAttributes()
+                    .ToArray();
 
                 if (HasAttribute<FromOwnComponentAttribute>(attributes))
                 {
@@ -56,15 +60,17 @@ namespace AlkarInjector
         {
             foreach (var field in _ownComponentFields)
             {
-                field.SetValue(monoBehaviour, monoBehaviour.GetComponent(field.GetType()));
+                field.SetValue(monoBehaviour, monoBehaviour.GetComponent(field.FieldType));
             }
+
             foreach (var field in _parentComponentFields)
             {
-                field.SetValue(monoBehaviour, monoBehaviour.GetComponentInParent(field.GetType()));
+                field.SetValue(monoBehaviour, monoBehaviour.GetComponentInParent(field.FieldType));
             }
+
             foreach (var field in _childComponentFields)
             {
-                field.SetValue(monoBehaviour, monoBehaviour.GetComponentInChildren(field.GetType()));
+                field.SetValue(monoBehaviour, monoBehaviour.GetComponentInChildren(field.FieldType));
             }
         }
     }
