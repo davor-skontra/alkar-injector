@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Alkar.Attributes
+namespace AlkarInjector.Attributes
 {
     public class FromOwnComponentAttribute : Attribute
     {

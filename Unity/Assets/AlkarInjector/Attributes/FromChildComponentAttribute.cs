@@ -1,7 +1,6 @@
 ﻿using System;
-using UnityEngine;
 
-namespace AlkarSource.Attributes
+namespace AlkarInjector.Attributes
 {
     public class FromChildComponentAttribute : Attribute
     {
