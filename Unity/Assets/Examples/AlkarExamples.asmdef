@@ -1,0 +1,15 @@
+{
+    "name": "AlkarExamples",
+    "references": [
+        "GUID:f1b629df28b962b4f95818222cae746b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
