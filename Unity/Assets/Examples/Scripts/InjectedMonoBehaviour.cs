@@ -16,7 +16,7 @@ namespace Examples.Scripts
 
         private void Awake()
         {
-            Alkar.Inject(this);
+           this.AlkarInject();
             
             Debug.Log(string.Join(",", _c.Select(x => x.name)));
         }

@@ -19,6 +19,9 @@ namespace AlkarInjector
         private readonly List<FieldInfo> _ownComponentsFields = new List<FieldInfo>();
         private readonly List<FieldInfo> _childComponentsFields = new List<FieldInfo>();
         private readonly List<FieldInfo> _parentComponentsFields = new List<FieldInfo>();
+        
+        // Services
+        private readonly List<FieldInfo> _serviceFields = new List<FieldInfo>();
 
         public KnownType(Type type)
         {
@@ -64,6 +67,12 @@ namespace AlkarInjector
                 {
                     _childComponentsFields.Add(field);
                 }
+                
+                //Attributes
+                if (HasAttribute<InjectServiceAttribute>(attributes))
+                {
+                    _serviceFields.Add(field);
+                }
             }
 
             bool HasAttribute<TAttribute>(Attribute[] attributes) where TAttribute : Attribute
@@ -77,6 +86,14 @@ namespace AlkarInjector
                 }
 
                 return false;
+            }
+        }
+
+        public void Resolve(object target)
+        {
+            foreach (var field in _serviceFields)
+            {
+                field.SetValue(target, Alkar.Services.ResolveAnonymous(field.FieldType));
             }
         }
 
@@ -114,6 +131,11 @@ namespace AlkarInjector
             {
                 var elementType = field.FieldType.GetElementType();
                 SetValueWithFieldConversion(elementType, field, monoBehaviour.GetComponentsInChildren);
+            }
+
+            foreach (var field in _serviceFields)
+            {
+                field.SetValue(monoBehaviour, Alkar.Services.ResolveAnonymous(field.FieldType));
             }
 
             void SetValueWithFieldConversion(Type elementType, FieldInfo field, Func<Type, object[]> getter)
