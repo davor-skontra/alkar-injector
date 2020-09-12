@@ -65,10 +65,10 @@ namespace AlkarInjector
                 }
                 
                 public static ServiceLocatorException ShouldNotExist(Type type) => 
-                    new ServiceLocatorException($"Service Locator does not contain type {type})");
+                    new ServiceLocatorException($"Service Locator already contains type {type})");
                 
                 public static ServiceLocatorException ShouldExist(Type type) => 
-                    new ServiceLocatorException($"Service Locator already contains type {type})");
+                    new ServiceLocatorException($"Service Locator does not contains type {type})");
             }
         }
     }
