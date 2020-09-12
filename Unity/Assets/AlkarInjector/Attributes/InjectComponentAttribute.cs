@@ -4,6 +4,6 @@ namespace AlkarInjector.Attributes
 {
     public class InjectComponentAttribute : Attribute
     {
-    
+        
     }
 }

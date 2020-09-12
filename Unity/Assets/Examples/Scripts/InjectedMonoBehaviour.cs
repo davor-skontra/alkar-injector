@@ -14,10 +14,13 @@ namespace Examples.Scripts
         [InjectChildComponents]
         private Collider2D[] _c;
 
+        [InjectService]
+        private IInjectedService _service;
+
         private void Awake()
         {
-            Alkar.Inject(this);
-            
+           this.AlkarInject();
+            _service.SayHello();
             Debug.Log(string.Join(",", _c.Select(x => x.name)));
         }
     }
