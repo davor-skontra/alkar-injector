@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5724c56b-f5e6-42d9-afd8-131438902bc6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/Scripts/CompositionRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Scripts/CompositionRoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedService.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Examples/Scripts/CompositionRoot.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectService.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectComponentAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/KnownType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/Scripts/SimpleObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectServiceAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectChildComponentsAttribute.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/Scripts/CompositionRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gapzgrcaea6o2DDCR9ZZlcyCgX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20992">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="20992" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5724c56b-f5e6-42d9-afd8-131438902bc6" name="Default Changelist" comment="" />
+      <created>1598362826294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598362826294</updated>
+      <workItem from="1598362837148" duration="3668000" />
+      <workItem from="1599810799370" duration="575000" />
+      <workItem from="1599811403454" duration="738000" />
+      <workItem from="1599838532605" duration="4639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1599919799807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599919799807" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1599919799807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599919799807" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1599919799807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599919799807" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1599919799807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599919799807" />
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1599919819192">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599919819192" />
+    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1599919819190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599919819190" />
+    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1599919819190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599919819190" />
+    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1599919819191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599919819191" />
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom" timestamp="1599919799484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599919799484" />
+    <state width="1493" height="288" key="GridCell.Tab.2.center" timestamp="1599919799484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599919799484" />
+    <state width="1493" height="288" key="GridCell.Tab.2.left" timestamp="1599919799484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599919799484" />
+    <state width="1493" height="288" key="GridCell.Tab.2.right" timestamp="1599919799484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599919799484" />
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom" timestamp="1599919799485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599919799485" />
+    <state width="1493" height="288" key="GridCell.Tab.3.center" timestamp="1599919799485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1599919799485" />
+    <state width="1493" height="288" key="GridCell.Tab.3.left" timestamp="1599919799484">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1599919799484" />
+    <state width="1493" height="288" key="GridCell.Tab.3.right" timestamp="1599919799485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1599919799485" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs</url>
+          <line>23</line>
+          <properties documentPath="C:\Users\thekr\Projects\Unity\alkar-injector\Unity\Assets\Examples\Scripts\InjectedMonoBehaviour.cs" initialLine="23">
+            <startOffsets>
+              <option value="504" />
+            </startOffsets>
+            <endOffsets>
+              <option value="556" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
