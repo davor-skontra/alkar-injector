@@ -6,6 +6,6 @@ public class CompositionRoot : MonoBehaviour
 {
     private void Awake()
     {
-        Services.Register(new InjectedService());
+        Services.Register<IInjectedService>(new InjectedService());
     }
 }

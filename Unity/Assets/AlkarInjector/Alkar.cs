@@ -46,6 +46,11 @@ namespace AlkarInjector
                 _services[type] = service;
             }
 
+            public static void Register<TRegisterAs, TService>(TService service) where TService: TRegisterAs
+            {
+                Register((TService) service);
+            }
+
             public static object ResolveAnonymous(Type type)
             {
                 if (_services.ContainsKey(type))

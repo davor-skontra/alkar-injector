@@ -2,7 +2,12 @@ using UnityEngine;
 
 namespace Examples.Scripts
 {
-    public class InjectedService
+    public interface IInjectedService
+    {
+        void SayHello();
+    }
+
+    public class InjectedService : IInjectedService
     {
         public void SayHello()
         {

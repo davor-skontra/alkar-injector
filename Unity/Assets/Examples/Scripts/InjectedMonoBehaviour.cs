@@ -15,7 +15,7 @@ namespace Examples.Scripts
         private Collider2D[] _c;
 
         [InjectService]
-        private InjectedService _service;
+        private IInjectedService _service;
 
         private void Awake()
         {
