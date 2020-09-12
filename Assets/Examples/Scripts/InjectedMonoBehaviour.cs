@@ -8,18 +8,15 @@ namespace Examples.Scripts
 {
     public class InjectedMonoBehaviour : MonoBehaviour
     {
-        [InjectComponent]
-        private Rigidbody2D _r;
+        [InjectComponent] private Rigidbody2D _r;
 
-        [InjectChildComponents]
-        private Collider2D[] _c;
+        [InjectChildComponents] private Collider2D[] _c;
 
-        [InjectService]
-        private IInjectedService _service;
+        [InjectService] private IInjectedService _service;
 
         private void Awake()
         {
-           this.AlkarInject();
+            Alkar.InjectMonoBehaviour(this);
             _service.SayHello();
             Debug.Log(string.Join(",", _c.Select(x => x.name)));
         }

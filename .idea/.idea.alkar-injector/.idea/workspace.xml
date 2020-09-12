@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21f672e8-fc3c-4293-8b90-6468493013e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.alkar-injector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.alkar-injector/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectServiceAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectServiceAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AlkarInjector/KnownType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlkarInjector/KnownType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/Scripts/SimpleObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Scripts/SimpleObject.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/KnownType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/Scripts/SimpleObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectServiceAttribute.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hPwlgBYY88QY3mqd2WH4YyEoX3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -20,4 +59,21 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21f672e8-fc3c-4293-8b90-6468493013e6" name="Default Changelist" comment="" />
+      <created>1599926191247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599926191247</updated>
+      <workItem from="1599926199215" duration="551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
 </project>

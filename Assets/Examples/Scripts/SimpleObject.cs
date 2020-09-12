@@ -5,11 +5,13 @@ namespace Examples.Scripts
 {
     public class SimpleObject
     {
-        [InjectService] private Instantiator _instantiator;
+        [InjectService] private IInjectedService _injectedService;
         
         public SimpleObject()
         {
-            this.AlkarInject<SimpleObject>();
+            Alkar.Inject(this);
+            
+            _injectedService.SayHello();
         }
     }
 }

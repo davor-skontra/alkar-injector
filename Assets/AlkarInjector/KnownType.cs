@@ -97,7 +97,7 @@ namespace AlkarInjector
             }
         }
 
-        public void Resolve<TMonoBehaviour>(TMonoBehaviour monoBehaviour) where TMonoBehaviour : MonoBehaviour
+        public void ResolveMonoBehaviour<TMonoBehaviour>(TMonoBehaviour monoBehaviour) where TMonoBehaviour : MonoBehaviour
         {
             // Single component
             foreach (var field in _ownComponentFields)

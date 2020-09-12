@@ -8,7 +8,7 @@ namespace AlkarInjector
     {
         private static Dictionary<Type, KnownType> _knownTypes = new Dictionary<Type, KnownType>();
         
-        public static void AlkarInject<TMonoBehaviour>(this TMonoBehaviour self) where TMonoBehaviour : MonoBehaviour
+        public static void InjectMonoBehaviour<TMonoBehaviour>(TMonoBehaviour self) where TMonoBehaviour : MonoBehaviour
         {
             var type = typeof(TMonoBehaviour);
 
@@ -19,10 +19,10 @@ namespace AlkarInjector
             
             _knownTypes[type].Resolve(self);
         }
-
-        public static void AlkarInject<TType>(this object self)
+        
+        public static void Inject(object self)
         {
-            var type = typeof(TType);
+            var type = self.GetType();
 
             if (!_knownTypes.ContainsKey(type))
             {
