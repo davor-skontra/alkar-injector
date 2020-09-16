@@ -69,7 +69,7 @@ namespace AlkarInjector
                 }
                 
                 //Attributes
-                if (HasAttribute<InjectServiceAttribute>(attributes))
+                if (HasAttribute<InjectAttribute>(attributes))
                 {
                     _serviceFields.Add(field);
                 }

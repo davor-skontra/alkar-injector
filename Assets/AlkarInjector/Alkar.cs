@@ -7,7 +7,13 @@ namespace AlkarInjector
     public static class Alkar
     {
         private static Dictionary<Type, KnownType> _knownTypes = new Dictionary<Type, KnownType>();
-        
+
+        public static void Clear()
+        {
+            _knownTypes.Clear();
+            Services.Clear();
+        }
+
         public static void InjectMonoBehaviour<TMonoBehaviour>(TMonoBehaviour self) where TMonoBehaviour : MonoBehaviour
         {
             var type = typeof(TMonoBehaviour);
@@ -17,7 +23,7 @@ namespace AlkarInjector
                 _knownTypes[type] = new KnownType(type);
             }
             
-            _knownTypes[type].Resolve(self);
+            _knownTypes[type].ResolveMonoBehaviour(self);
         }
         
         public static void Inject(object self)
@@ -34,7 +40,9 @@ namespace AlkarInjector
 
         public static class Services
         {
-            private static Dictionary<Type, object> _services = new Dictionary<Type, object>(); 
+            private static Dictionary<Type, object> _services = new Dictionary<Type, object>();
+
+            public static void Clear() => _services.Clear();
             public static void Register<TService>(TService service)
             {
                 var type = typeof(TService);

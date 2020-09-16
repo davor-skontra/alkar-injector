@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f672e8-fc3c-4293-8b90-6468493013e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.alkar-injector/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.alkar-injector/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.alkar-injector/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.alkar-injector/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlkarInjector/Alkar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectServiceAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlkarInjector/Attributes/InjectServiceAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AlkarInjector/KnownType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AlkarInjector/KnownType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Scripts/InjectedMonoBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/Scripts/SimpleObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Scripts/SimpleObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599926191247</updated>
-      <workItem from="1599926199215" duration="551000" />
+      <workItem from="1599926199215" duration="2600000" />
     </task>
     <servers />
   </component>
